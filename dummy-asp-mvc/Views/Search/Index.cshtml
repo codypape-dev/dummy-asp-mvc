@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+
+}
+@model IEnumerable<dummy_asp_mvc.Models.Dummy>
+
+
+<h2>Welcome to Dummies</h2>
+
+<div>
+    @Html.Partial("List", Model);
+</div>
+
